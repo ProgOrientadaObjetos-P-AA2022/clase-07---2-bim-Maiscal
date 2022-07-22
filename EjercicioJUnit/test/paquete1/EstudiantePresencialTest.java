@@ -33,6 +33,7 @@ public class EstudiantePresencialTest {
     
     @Before
     public void setUp() {
+        instance = new EstudiantePresencial();
     }
     
     @After

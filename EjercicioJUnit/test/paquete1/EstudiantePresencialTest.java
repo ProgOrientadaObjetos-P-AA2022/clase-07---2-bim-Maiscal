@@ -89,9 +89,9 @@ public class EstudiantePresencialTest {
             NoSuchFieldException, 
             IllegalAccessException {
         System.out.println("calcularMatriculaPresencial");
-        instance.calcularMatriculaPresencial();
-        instance.establecerNumeroCreditos(10);
         instance.establecerCostoCredito(1.0);
+        instance.establecerNumeroCreditos(10);
+        instance.calcularMatriculaPresencial();
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
         Field field = instance.getClass().getDeclaredField("matriculaPresencial");
